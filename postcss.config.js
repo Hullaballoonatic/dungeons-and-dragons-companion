@@ -1,4 +1,6 @@
-const plugins = [require('tailwindcss/nesting'), require('tailwindcss')]
 module.exports = {
-    plugins
+    plugins: [
+        require('@tailwindcss/nesting'),
+        require('tailwindcss'),
+    ],
 }

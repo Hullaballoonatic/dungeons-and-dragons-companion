@@ -2,6 +2,9 @@
     "extends": "@tsconfig/svelte/tsconfig.json",
     "compilerOptions": {
       "target": "es2020",
+      "plugins": [{
+          "name": "typescript-svelte-plugin"
+      }]
     },
     "lib": ["es2020", "dom"]
 }
